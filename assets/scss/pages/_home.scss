@@ -56,12 +56,12 @@ main {
 #furnish {
     background-color: #d4eaf5;
     width: 100%;
-    height: 650px;
+    height: 600px;
 
 
     .container img {
         width: 100%;
-        height: 650px;
+        height: 600px;
         float: right;
     }
 
@@ -114,4 +114,51 @@ main {
     }
 
 
+}
+
+
+#view{width: 100%;
+    .container{
+        width: 100%;
+        margin: 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+        .items{
+            width: 280px;
+            height: 270px;
+            display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       h1{
+        font-size: 20px;
+       }
+       p{
+        font-size: 16px;
+        font-weight: 300;
+     
+       }
+        }
+    }
+}
+#customer{width: 100%;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://preview.colorlib.com/theme/furnish/images/bg_4.jpg');
+.right{
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    margin: 20px;
+}
 }
